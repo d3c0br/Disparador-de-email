@@ -1,0 +1,30 @@
+C:\Users\Veteranos Dev\source\repos\smtp\smtp\bin\Debug\smtp.exe.config
+C:\Users\Veteranos Dev\source\repos\smtp\smtp\bin\Debug\smtp.exe
+C:\Users\Veteranos Dev\source\repos\smtp\smtp\bin\Debug\smtp.pdb
+C:\Users\Veteranos Dev\source\repos\smtp\smtp\obj\Debug\smtp.csprojAssemblyReference.cache
+C:\Users\Veteranos Dev\source\repos\smtp\smtp\obj\Debug\smtp.Form1.resources
+C:\Users\Veteranos Dev\source\repos\smtp\smtp\obj\Debug\smtp.Properties.Resources.resources
+C:\Users\Veteranos Dev\source\repos\smtp\smtp\obj\Debug\smtp.csproj.GenerateResource.cache
+C:\Users\Veteranos Dev\source\repos\smtp\smtp\obj\Debug\smtp.csproj.CoreCompileInputs.cache
+C:\Users\Veteranos Dev\source\repos\smtp\smtp\obj\Debug\smtp.exe
+C:\Users\Veteranos Dev\source\repos\smtp\smtp\obj\Debug\smtp.pdb
+D:\smtp\smtp\bin\Debug\smtp.exe.config
+D:\smtp\smtp\bin\Debug\smtp.exe
+D:\smtp\smtp\bin\Debug\smtp.pdb
+D:\smtp\smtp\obj\Debug\smtp.csprojAssemblyReference.cache
+D:\smtp\smtp\obj\Debug\smtp.Form1.resources
+D:\smtp\smtp\obj\Debug\smtp.Properties.Resources.resources
+D:\smtp\smtp\obj\Debug\smtp.csproj.GenerateResource.cache
+D:\smtp\smtp\obj\Debug\smtp.csproj.CoreCompileInputs.cache
+D:\smtp\smtp\obj\Debug\smtp.exe
+D:\smtp\smtp\obj\Debug\smtp.pdb
+C:\Users\paulo\Desktop\smtp\smtp\bin\Debug\smtp.exe.config
+C:\Users\paulo\Desktop\smtp\smtp\bin\Debug\smtp.exe
+C:\Users\paulo\Desktop\smtp\smtp\bin\Debug\smtp.pdb
+C:\Users\paulo\Desktop\smtp\smtp\obj\Debug\smtp.csprojAssemblyReference.cache
+C:\Users\paulo\Desktop\smtp\smtp\obj\Debug\smtp.Form1.resources
+C:\Users\paulo\Desktop\smtp\smtp\obj\Debug\smtp.Properties.Resources.resources
+C:\Users\paulo\Desktop\smtp\smtp\obj\Debug\smtp.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\smtp\smtp\obj\Debug\smtp.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\smtp\smtp\obj\Debug\smtp.exe
+C:\Users\paulo\Desktop\smtp\smtp\obj\Debug\smtp.pdb
