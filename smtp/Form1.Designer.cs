@@ -40,15 +40,17 @@
             this.label8 = new System.Windows.Forms.Label();
             this.btnListaDestinatarios = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.btnAnexo = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txtAssunto = new System.Windows.Forms.TextBox();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.txtPorta = new System.Windows.Forms.ComboBox();
             this.txtSmtp = new System.Windows.Forms.ComboBox();
-            this.label10 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.txtMensagem = new System.Windows.Forms.TextBox();
-            this.txtAssunto = new System.Windows.Forms.TextBox();
             this.lbLogs = new System.Windows.Forms.ListBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnIniciar = new System.Windows.Forms.Button();
@@ -57,15 +59,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtIntervalo = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
+            this.groupBox6.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            this.groupBox5.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtIntervalo)).BeginInit();
-            this.groupBox5.SuspendLayout();
-            this.groupBox6.SuspendLayout();
             this.SuspendLayout();
             // 
             // label3
@@ -177,6 +177,21 @@
             this.groupBox1.Text = "Configurações";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.btnListaDestinatarios);
+            this.groupBox6.Controls.Add(this.groupBox4);
+            this.groupBox6.Controls.Add(this.label7);
+            this.groupBox6.Controls.Add(this.label10);
+            this.groupBox6.Controls.Add(this.txtAssunto);
+            this.groupBox6.ForeColor = System.Drawing.Color.Lime;
+            this.groupBox6.Location = new System.Drawing.Point(30, 180);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(418, 374);
+            this.groupBox6.TabIndex = 29;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "EMAIL";
+            // 
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.listBox1);
@@ -221,6 +236,45 @@
             this.btnAnexo.UseVisualStyleBackColor = false;
             this.btnAnexo.Click += new System.EventHandler(this.brnAnexo_Click);
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(8, 36);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(48, 16);
+            this.label10.TabIndex = 23;
+            this.label10.Text = "Assunto:";
+            // 
+            // txtAssunto
+            // 
+            this.txtAssunto.BackColor = System.Drawing.Color.Black;
+            this.txtAssunto.ForeColor = System.Drawing.Color.LightGray;
+            this.txtAssunto.Location = new System.Drawing.Point(62, 32);
+            this.txtAssunto.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAssunto.Name = "txtAssunto";
+            this.txtAssunto.Size = new System.Drawing.Size(329, 22);
+            this.txtAssunto.TabIndex = 17;
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.label4);
+            this.groupBox5.Controls.Add(this.label6);
+            this.groupBox5.Controls.Add(this.txtPorta);
+            this.groupBox5.Controls.Add(this.label3);
+            this.groupBox5.Controls.Add(this.txtSmtp);
+            this.groupBox5.Controls.Add(this.label5);
+            this.groupBox5.Controls.Add(this.txtSenha);
+            this.groupBox5.Controls.Add(this.txtEmailFrom);
+            this.groupBox5.ForeColor = System.Drawing.Color.Lime;
+            this.groupBox5.Location = new System.Drawing.Point(30, 23);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox5.Size = new System.Drawing.Size(418, 133);
+            this.groupBox5.TabIndex = 28;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "SMTP";
+            // 
             // txtPorta
             // 
             this.txtPorta.BackColor = System.Drawing.Color.Black;
@@ -253,15 +307,6 @@
             this.txtSmtp.TabIndex = 25;
             this.txtSmtp.Text = "smtp.gmail.com";
             // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(8, 36);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(48, 16);
-            this.label10.TabIndex = 23;
-            this.label10.Text = "Assunto:";
-            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.txtMensagem);
@@ -288,16 +333,6 @@
             this.txtMensagem.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtMensagem.Size = new System.Drawing.Size(648, 281);
             this.txtMensagem.TabIndex = 0;
-            // 
-            // txtAssunto
-            // 
-            this.txtAssunto.BackColor = System.Drawing.Color.Black;
-            this.txtAssunto.ForeColor = System.Drawing.Color.LightGray;
-            this.txtAssunto.Location = new System.Drawing.Point(62, 32);
-            this.txtAssunto.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txtAssunto.Name = "txtAssunto";
-            this.txtAssunto.Size = new System.Drawing.Size(329, 22);
-            this.txtAssunto.TabIndex = 17;
             // 
             // lbLogs
             // 
@@ -400,41 +435,6 @@
             this.label1.TabIndex = 27;
             this.label1.Text = "by: d3c0";
             // 
-            // groupBox5
-            // 
-            this.groupBox5.Controls.Add(this.label4);
-            this.groupBox5.Controls.Add(this.label6);
-            this.groupBox5.Controls.Add(this.txtPorta);
-            this.groupBox5.Controls.Add(this.label3);
-            this.groupBox5.Controls.Add(this.txtSmtp);
-            this.groupBox5.Controls.Add(this.label5);
-            this.groupBox5.Controls.Add(this.txtSenha);
-            this.groupBox5.Controls.Add(this.txtEmailFrom);
-            this.groupBox5.ForeColor = System.Drawing.Color.Lime;
-            this.groupBox5.Location = new System.Drawing.Point(30, 23);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox5.Size = new System.Drawing.Size(418, 133);
-            this.groupBox5.TabIndex = 28;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "SMTP";
-            // 
-            // groupBox6
-            // 
-            this.groupBox6.Controls.Add(this.btnListaDestinatarios);
-            this.groupBox6.Controls.Add(this.groupBox4);
-            this.groupBox6.Controls.Add(this.label7);
-            this.groupBox6.Controls.Add(this.label10);
-            this.groupBox6.Controls.Add(this.txtAssunto);
-            this.groupBox6.ForeColor = System.Drawing.Color.Lime;
-            this.groupBox6.Location = new System.Drawing.Point(30, 180);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(418, 374);
-            this.groupBox6.TabIndex = 29;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "EMAIL";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 16F);
@@ -455,18 +455,18 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "SPAM Email - DIRETORIA 171";
+            this.Text = "Disparador de Email";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
             this.groupBox4.ResumeLayout(false);
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.txtIntervalo)).EndInit();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
